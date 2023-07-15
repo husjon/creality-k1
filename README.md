@@ -16,6 +16,8 @@ All of these parameters vary from printer to printer due to small manufacturing 
 
 ## Changes from the original configuration
 * Set idle timeout to 5 minutes (was essentially disabled)
+* Removed Stop motors from the END_PRINT macro.  
+  This allows us to move the bed if needed without homing the printer again.
 * Enabled Stealthchop on X,Y and Z steppers.  
   This quiets down the printer quite a bit.
 * Set X, Y Max Velocity to 600mm/s (was 1000mm/s)
