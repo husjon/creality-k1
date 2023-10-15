@@ -30,3 +30,4 @@ You might also want to check the following:
 * Set Z acceleration to 150mm/s (was 300m/s)
 * Adjusted rotation distance on extruder from to 6.8 (from 6.9)
 * Enabled firmware retraction (0.2mm at 100mm/s)
+* Set recovery velocity to 100mm/s (was 500mm/s)
