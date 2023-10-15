@@ -24,6 +24,6 @@ You might also want to check the following:
 * Enabled Stealthchop on X,Y and Z steppers.  
   This quiets down the printer quite a bit.
 * Set X, Y Max Velocity to 600mm/s (was 1000mm/s)
-* Set Z Max Velocity to 10mm/s (was 20mm/s)  
+* Reduced X Y Max Acceleration to 15000mm/s^2 because of stealthchop (was 20000mm/s^2)
   Making it less noisy.
 * Adjusted rotation distance on extruder from to 6.8 (from 6.9)
